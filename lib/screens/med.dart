@@ -89,7 +89,7 @@ class _MedState extends State<Med> {
                         child: Align(
                           alignment: Alignment.bottomCenter,
                           child: GestureDetector(
-                            onTap: MusicPlayerPage(),
+                            onTap: (){},
                             child: Padding(
                               padding:  EdgeInsets.only(bottom: 16.0),
                               child: Text(
